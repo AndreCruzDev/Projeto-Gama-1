@@ -1,0 +1,147 @@
+/* Font */
+
+@font-face {
+  font-family: 'SpaceMission';
+  src: url('SpaceMission-rgyw9.otf') format('opentype');
+}
+
+/* Font */
+
+/* All */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url(https://media.discordapp.net/attachments/837804835897737291/890605680082436166/body-bg.png) repeat 0 0;
+    background-size: 250px auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* All */
+
+/* Header */
+
+.navbar {
+    background: rgb(126, 123, 123);
+}
+
+.nav {
+    justify-content: center;
+}
+
+nav{
+    font-family: SpaceMission;
+    justify-content: center;
+}
+
+nav ul li {
+    align-content: center;
+}
+
+.wolfImage {
+    align-self: center;
+}
+
+.navtext{
+    font-family: SpaceMission;
+    color:rgb(0, 0, 0) !important;
+    text-align: center;
+    size: 30px;
+}
+
+.navbar-brand {
+    margin-top: 1rem;
+}
+
+/* Header */
+
+/* Main */
+
+.pad {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+.sizeSpan{
+    font-size: 75px;
+}
+
+
+.card-body {
+    text-align: center;
+}
+
+
+.fa-circle {
+    color:rgb(51, 51, 124)
+}
+
+.imgCard {
+    max-width: 298px;
+    max-height: 298px;
+
+}
+
+/* Main */
+
+/* Responsive Image-Cards */
+
+@media screen and (max-width: 1250px) {
+    
+    .imgCard {
+        max-width: 298px;
+        max-height: 273px;
+        min-height: 269px;
+    
+    }
+
+    
+}
+@media screen and (max-width: 1000px) {
+    
+    .imgCard {
+        max-width: 298px;
+        max-height: 260px;
+        min-height: 258px;
+    
+    }
+
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+    .imgCard {
+        max-width: 298px;
+        max-height: 260px;
+        min-height: 258px;
+    
+    }
+
+    
+}
+@media screen and (max-width: 600px) {
+    .imgCard {
+        max-width: 298px;
+        max-height: 298px;
+        min-height: 265px;
+        
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .imgCard {
+        max-width: 298px;
+        max-height: 298px;
+        min-height: 179px;
+    }
+    
+}
+
+/* Responsive Image-Cards */
